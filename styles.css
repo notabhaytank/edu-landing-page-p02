@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vibur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    
+    height: 773px;
+    flex-shrink: 0;
+   
+}
+
+header{
+     height: 78px;
+    flex-shrink: 0;
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 66px;
+    padding-left: 66px;
+    
+}
+
+header section{
+    display: flex;
+}
+
+header section div{
+    display: flex;
+}
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section{
+    height: 90%;
+    width: 40%;
+    
+}
+
+#logo{
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+
+    margin-right: 17px;
+    margin-top: 6px;
+}
+
+#logotxt{
+    width: 351px;
+    height: 51px;
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: Vibur;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#lang{
+    width: 49px;
+    color:  #333;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: center;
+
+}
+
+#langdrop{
+    width: 1rem ;
+
+    flex-shrink: 0;
+    fill:  #333;
+    stroke-width: 2px;
+    stroke: #000;
+    margin-right: 20px;
+}
+
+#navside div button{
+    width: 110px;
+height: 44px;
+flex-shrink: 0;
+border: 0;
+border-radius: 4px;
+background:  #3A5AFF;
+margin-right: 20px;
+}
+.btn1{
+    width: 110px;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+#navside{
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+#burger{
+    width: 34px;
+height: 28px;
+flex-shrink: 0;
+
+}
+
+#image img{
+    width: 494px;
+height: 4365px;
+flex-shrink: 0;
+margin-top: 75px;
+margin-left: 85px;
+}
+
+#title{
+    width: 522px;
+height: 188px;
+flex-shrink: 0;
+margin-bottom: 35px;
+
+color: #2F281E;
+font-family: Montserrat;
+font-size: 74px;
+font-style: normal;
+font-weight: 800;
+line-height: 100px; /* 135.135% */
+}
+
+#description{
+    width: 476px;
+height: 62px;
+flex-shrink: 0;
+color: #544837;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 31px; /* 129.167% */
+margin-bottom: 35px;
+}
+
+#signupbtn{
+    width: 255px;
+height: 56px;
+flex-shrink: 0;
+border: 0;
+border-radius: 4px;
+background: #3A5AFF;
+margin-bottom: 35px;
+
+}
+
+#signupbtn p{
+    width: 255px;
+    color: #FFF;
+align-self: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+
+#download{
+    width: 160px;
+height: 29px;
+flex-shrink: 0;
+color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#article{
+    margin-top: 35px;
+}
+
